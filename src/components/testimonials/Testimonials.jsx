@@ -39,7 +39,7 @@ const Testimonials = () => {
             <h5>Reviews from Users</h5>
       <h2>Testimonials</h2>
             </div>
-            <Swiper className='container testimonials__container'
+            <Swiper className='testimonials__container'
         modules={[Navigation, Pagination]}
       spaceBetween={40}
       slidesPerView={1}

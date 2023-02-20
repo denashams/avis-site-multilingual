@@ -4,9 +4,9 @@
 .testimonials__heading h2 {
     color: var(--color-primary);
 }
-.container .testimonials__container{
-    width: 40%;
-}
+.testimonials__container{
+width: 40%;}
+
 .user__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
