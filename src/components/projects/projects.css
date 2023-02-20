@@ -1,0 +1,41 @@
+.projects__heading {
+    margin: 4rem 0 3rem;
+}
+.projects__heading h2 {
+    color: var(--color-primary);
+}
+
+.projects__item {
+    background: var(--color-background-variant);
+    padding: 1.1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    
+}
+.projects__item:hover {
+    border-color: var(color-primary-variant);
+    background: transparent;
+    transition: all 400ms ease-in-out;
+
+}
+.projects__item img {
+    border-radius: 1rem;
+}
+.projects__item h3 {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.projects__cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.projects__cta a {
+    font-size: 0.8rem;
+}
+.projects__cta .btn {
+    padding: 0.6rem 1.3rem;
+    
+} 
