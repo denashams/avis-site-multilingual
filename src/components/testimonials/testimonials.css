@@ -29,3 +29,15 @@ width: 40%;}
     width: 80%;
     margin: 0.8rem auto 0;
 }
+@media  screen and (max-width: 1024px) {
+    .testimonials__container{
+        width: 75%;}
+
+
+
+}
+@media  screen and (max-width: 600px) {
+
+    .testimonials__container{
+        width: 75%;}
+}
