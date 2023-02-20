@@ -9,9 +9,12 @@ header {
     margin-top: 5rem;
     text-align: center;
 }
-h1 {
+.header__container h1 {
     font-family: 'Arizonia', cursive;
+    font-size: 6rem;
+    
 }
+
 .cta {
     margin-top: 2rem;
     display: flex;

@@ -6,13 +6,25 @@
 }
 
 :root {
+  --color-background: #19335c;
+  --color-background-variant: #427a93;
+  --color-primary: #fee2b9;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+/* =============== alternative root colors ===================
+
+:root {
   --color-background: #1f1f38;
   --color-background-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-}
+} */
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,10 +38,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
 }
-h1 {
-  font-size: 6rem;
-padding:  0rem 4rem 1rem;
-}
+
 .container {
   width: 75%;
    }

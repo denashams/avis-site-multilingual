@@ -14,8 +14,8 @@ const Projects = () => {
             <h2>Our Projects</h2>
             </div>
             <div className="container projects__container">
-                <div className="row mb-5">
-                    <div className='col-lg-4'>
+                <div className="row">
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">
           <div className="projects__image">
             <img src={architecture} alt="architecture" />
@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">  
             <img src={garden} alt="garden" />
             <h3>Persian Garden Ontology</h3>
@@ -37,7 +37,7 @@ const Projects = () => {
             </div>
         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">
             <img src={landscape} alt="landscape" />
             <h3>Landscape Architecture History Ontology</h3>
@@ -48,8 +48,8 @@ const Projects = () => {
         </div>
                     </div>
                     </div>
-                <div className="row mb-5">
-                    <div className='col-lg-4'>
+                <div className="row">
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">
             <img src={pirnia} alt="pirnia" />
             <h3>Pirnia Project</h3>
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">         
             <img src={page} alt="book page" />
             <h3>Syntopicon</h3>
@@ -69,7 +69,7 @@ const Projects = () => {
             </div>
         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mb-5'>
                     <div className="projects__item">
             <img src={note} alt="note" />
             <h3>Flashcards</h3>

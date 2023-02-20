@@ -12,7 +12,7 @@ const Services = () => {
         </div>
         <div className='container services__container'>
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 mb-5">
                     {/* 1st service */}
         <div className='services'>
           <div className='services__head'>
@@ -39,7 +39,7 @@ const Services = () => {
         </div>
         {/* end */}
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 mb-5">
                     {/* second service */}
         <div className='services'>
           <div className='services__head'>
@@ -61,7 +61,7 @@ const Services = () => {
           </ul>
         </div>
         {/* end */}
-                </div><div className="col-lg-4">
+                </div><div className="col-lg-4 mb-5">
                     {/* 3d service */}
         <div className='services'>
           <div className='services__head'>
